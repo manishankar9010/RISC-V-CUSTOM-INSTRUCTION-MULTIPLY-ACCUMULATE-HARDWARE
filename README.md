@@ -15,8 +15,8 @@ Encoded in the RISC-V **custom-0** opcode space, R-type format:
 | Field | Value | Notes |
 |-------|-------|-------|
 | `opcode` | `7'b0001011` | custom-0 (0x0B) |
-| `funct3` | `3'b000` | |selects various modes |
-| `funct7` | `7'b0000001` | |selects various modes|
+| `funct3` | `3'b000` | selects various modes |
+| `funct7` | `7'b0000001` | selects various modes|
 | `rs1` | operand A | lower 16 bits used, signed |
 | `rs2` | operand B | lower 16 bits used, signed |
 | `rd` | destination | receives the accumulator value |
